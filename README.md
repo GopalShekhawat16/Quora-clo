@@ -4,18 +4,27 @@ A fully responsive Q&A platform built using React, TypeScript, and Tailwind CSS,
 
 🚀 Features
 ✅ Login & Logout system (with Firebase/Auth)
+
 🎯 Search functionality to explore different topics
+
 💬 Ask Questions and Post Answers
+
 🌐 Responsive Design using Tailwind CSS
+
 🔐 User authentication and session handling
+
 ⚡ Built with React + TypeScript for type safety and better development experience
 
 
 🛠️ Tech Stack
 Frontend: React + TypeScript
+
 Styling: Tailwind CSS
+
 Authentication: Firebase Auth
+
 Database: Firebase Firestore (optional)
+
 Icons & UI: React Icons, Toastify, etc.
 
 ## Run Locally
