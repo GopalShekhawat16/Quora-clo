@@ -16,6 +16,8 @@ A fully responsive Q&A platform built using React, TypeScript, and Tailwind CSS,
 ⚡ Built with React + TypeScript for type safety and better development experience
 
 
+
+
 🛠️ Tech Stack
 Frontend: React + TypeScript
 
