@@ -1,69 +1,56 @@
-# React + TypeScript + Vite
+A fully responsive Q&A platform built using React, TypeScript, and Tailwind CSS, inspired by Quora. This app allows users to log in, log out, search topics, and ask or answer questions in a clean, user-friendly interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Login & Logout system (with Firebase/Auth)
 
-Currently, two official plugins are available:
+🎯 Search functionality to explore different topics
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💬 Ask Questions and Post Answers
 
-## Expanding the ESLint configuration
+🌐 Responsive Design using Tailwind CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+🔐 User authentication and session handling
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+⚡ Built with React + TypeScript for type safety and better development experience
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+🛠️ Tech Stack
+Frontend: React + TypeScript
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Styling: Tailwind CSS
+
+Authentication: Firebase Auth
+
+Database: Firebase Firestore (optional)
+
+Icons & UI: React Icons, Toastify, etc.
+
+## Run Locally
+
+```bash
+  git clone https://github.com/GopalShekhawat16/dashboard-app
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Go to the project directory
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+  cd dashboard-app
 ```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+📷 Screenshots
+
+<img width="1916" height="982" alt="Screenshot 2025-07-23 111603" src="https://github.com/user-attachments/assets/cf114ad8-0323-437e-8a9a-136c50edbe65" />
+<img width="1667" height="977" alt="Screenshot 2025-07-23 111632" src="https://github.com/user-attachments/assets/2c1a040b-bed7-4d88-870f-9ca1f0799766" />
+<img width="1303" height="982" alt="Screenshot 2025-07-23 111657" src="https://github.com/user-attachments/assets/78cccc91-c9d0-419b-8416-09a726cdc57f" />
+
